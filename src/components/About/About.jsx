@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
+      className="py-4 px-[7vw] md:px-[7vw] lg:px-[12vw] font-sans mt-16 md:mt-24 lg:mt-32"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
@@ -17,7 +17,7 @@ const About = () => {
             Hi, I am
           </h1>
           {/* Name */}
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">
             Harshvardhan Patil
           </h2>
           {/* Skills Heading with Typing Effect */}
@@ -63,7 +63,7 @@ const About = () => {
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-500 rounded-full"
+            className="w-48 sm:w-64 md:w-full md:max-w-[22rem] lg:max-w-[26rem] aspect-square border-4 border-purple-500 rounded-full"
             tiltMaxAngleX={10}
             tiltMaxAngleY={10}
             perspective={1000}
